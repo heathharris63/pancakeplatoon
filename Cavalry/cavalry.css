@@ -1,0 +1,55 @@
+body {background: black;
+  margin: 1%;}
+
+button {background-color: grey;
+  border: 1px solid white;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none}
+
+h1 {color: white}
+
+img {
+  margin: 5px;
+  border: 5px solid #663399;
+  border-radius: 15px;
+  -webkit-box-reflect: below 1px
+  -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.825, transparent), to(black))}
+
+h2 {color: white}
+
+h3 {color: white}
+
+p {color: white}
+
+.tab {
+  float: left;
+  border: 2px solid #663399;
+  background-color: grey;
+  width: 30%;
+  height: 50%;}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: 2px solid #663399;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;}
+
+.tab button:hover {
+  background-color: black;}
+
+.tab button.active {
+  background-color: black;}
+
+.tabcontent {
+  padding: 0px 0px;
+  border: ;
+  width: 70%;
+  border-left: none;
+  height: 300px;}

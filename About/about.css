@@ -1,0 +1,23 @@
+body {background: black;
+  margin: 1%;}
+
+button {background-color: grey;
+  border: 1px solid white;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none}
+
+h1 {
+  color: White;
+  font-family: arial, sans-serif;
+  margin: 1em auto;
+  width: 80%;}
+
+p {color: white}
+
+img {
+  margin: 5px;
+  border: 5px solid #663399;
+  border-radius: 15px;
+  -webkit-box-reflect: below 1px
+  -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.825, transparent), to(black)}
